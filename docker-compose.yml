@@ -1,0 +1,8 @@
+version: '3'
+
+services: 
+    simple-nodejs-server:
+        image: "simple-nodejs-server:latest"
+        container_name: "simple-nodejs-server"
+    ports:
+        - "8080:8080"
