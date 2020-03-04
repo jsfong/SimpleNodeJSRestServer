@@ -5,7 +5,7 @@
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node app.js",
+    "start": "nodemon app.js",
     "start-server": "node app.js"
   },
   "repository": {
@@ -18,7 +18,9 @@
     "url": "https://github.com/jsfong/SimpleNodeJSRestServer/issues"
   },
   "homepage": "https://github.com/jsfong/SimpleNodeJSRestServer#readme",
-  "dependencies": {},
+  "dependencies": {
+    "express": "^4.17.1"
+  },
   "devDependencies": {
     "nodemon": "^2.0.2"
   }
