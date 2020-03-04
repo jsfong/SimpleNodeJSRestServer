@@ -6,6 +6,6 @@ const app = express();
 
 app.use(routes);
 
-console.log(routes.someText);
+console.log("Starting NodeJs Server");
 
 app.listen(3000)
