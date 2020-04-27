@@ -1,4 +1,4 @@
-FROM node:latest
+FROM node:alpine
 
 LABEL description="Simple Nodejs Server"
 LABEL version="1.0"
@@ -11,7 +11,7 @@ WORKDIR /usr/src/app
 # where available (npm@5+)
 COPY package*.json ./
 
-RUN npm Install
+RUN npm install
 # If you are building your code for production
 # RUN npm ci --only=production
 
